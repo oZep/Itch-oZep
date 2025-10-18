@@ -1,0 +1,86 @@
+body {
+    background-color: #000000;
+}
+
+.user_page {
+    --itchio_font_family: 'Oxygen Mono', Lato, LatoExtended, sans-serif;
+    --itchio_link_color: #ffffff;
+    --itchio_gray_back: #0c0c0c;
+    --itchio_border_radius: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-size: 128%;
+    font-family: Outfit, Lato, LatoExtended, sans-serif;
+    /* Added a thick border for .user_page */
+    border: 5px solid #bb5f78;
+}
+
+.user_page {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.user_description, .user_links {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.user_page_wrap > * {
+    width: 100%;
+    text-align: center;
+}
+
+.user_page hr {
+    background-color: #262626;
+    height: 3px;
+}
+
+.user_page .user_links .svgicon {
+    fill: #dedede;
+}
+
+.user_page_wrap {
+    background-image: url(https://tse3.mm.bing.net/th/id/OIP.7tjNXauVNXtFMIi5ZNYgfQHaHa?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3);
+    background-repeat: repeat;
+    background-position: 100% 0;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.user_page a,
+.footer a {
+    color: #ffffff;
+}
+
+.user_page .game_column,
+.user_page .purchased_games,
+.user_page .collection_row {
+    //border: 8px dashed #000000;
+}
+
+.footer {
+    border-top: none
+}
+
+.game_thumb {
+    //border: 10px double #262626;
+}
+
+.game_grid_widget .game_cell {
+    width: 90% !important;
+    min-width: 90% !important;
+    padding: 10px;
+}
+
+.game_grid_widget .game_cell .game_title a.title {
+    color: #ffffff;
+    font-weight: bold; /* Make game titles bolder */
+}
+
+.game_grid_widget .game_cell .web_flag {
+    color: #dedede;
+    background: #262626;
+}
